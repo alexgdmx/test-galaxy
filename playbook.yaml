@@ -1,0 +1,7 @@
+- name: tests playbook
+  hosts: localhost
+
+  tasks:
+  - name: task examples
+    debug:
+      msg: "hello world"
